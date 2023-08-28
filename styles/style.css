@@ -27,8 +27,8 @@ html {
 
 body {
     position: relative;
-    min-width: 1600px;
-    min-height: 900px;
+    /* min-width: 1600px;
+    min-height: 900px; */
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -71,7 +71,8 @@ body::before {
 .page__heading:hover::before {
     position: absolute;
     top: 182px;
-    left: 834px;
+    /* left: 834px; */
+    right: 22px;
     content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
     white-space: pre;
     text-align: left;
@@ -87,7 +88,6 @@ body::before {
     background: #FFF;
     padding: 36px 44px;
     text-transform: none;
-    border: 2px#000 solid;
     box-shadow: 0 12px 0 #000;
     z-index: 3;
 }
