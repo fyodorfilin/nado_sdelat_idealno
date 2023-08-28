@@ -60,16 +60,6 @@ body::before {
     padding-top: 60px;
 }
 
-.bg_video { 
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    position: absolute;
-    top: 0;
-    z-index: 0;
-} 
-
 .page__heading::after {
     content: "*";
 } 
@@ -100,4 +90,14 @@ body::before {
     text-transform: none;
     box-shadow: 0 12px 0 #000;
     z-index: 3;
+}
+
+.bg_video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 0;
 }
